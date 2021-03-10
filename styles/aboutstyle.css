@@ -1,0 +1,351 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color:plum;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  
+.links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-up {
+    margin-top: 70px;
+  }
+  
+  .links a {
+    float: left;
+    display: block;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .links a:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .logo {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 70px;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+  }
+  
+  section {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+
+     }
+    .foot {
+        max-width: 1110px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px; 
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .foot-n {
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .foot-l {
+        margin-top: 20px;
+    }    
+    
+    .foot-r {
+        margin-top: 20px;
+        display: inline-flex;
+        
+    }
+    
+    
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    }
+    
+    .foot-social {
+        max-width: 95px;
+        width: 100%;
+    
+    }
+    .f-ul {
+        width: 100%;
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    .link-foot>a {
+        color: #111;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 30px;
+    } 
+    
+    .link-foot>a:hover {
+        background-color: white;
+        border-radius: 5px;
+        text-decoration: underline;
+        color: black;
+    }
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    }
+
+     
+    .foot {
+        max-width: 1110px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px; 
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .foot-n {
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .foot-l {
+        margin-top: 20px;
+    }    
+    
+    .foot-r {
+        margin-top: 20px;
+        display: inline-flex;
+        
+    }
+    
+    
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    }
+    
+    .foot-social {
+        max-width: 95px;
+        width: 100%;
+    
+    }
+    .f-ul {
+        width: 100%;
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    .link-foot>a {
+        color: #111;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 30px;
+    } 
+
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    
+
+     }
+    .foot {
+        max-width: 1110px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px; 
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .foot-n {
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .foot-l {
+        margin-top: 20px;
+    }    
+    
+    .foot-r {
+        margin-top: 20px;
+        display: inline-flex;
+        
+    }
+    
+    
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    }
+    
+    .foot-social {
+        max-width: 95px;
+        width: 100%;
+    
+    }
+    .f-ul {
+        width: 100%;
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    .link-foot>a {
+        color: #111;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 30px;
+    } 
+    
+    .link-foot>a:hover {
+        background-color:black;
+        border-radius: 5px;
+        text-decoration: underline;
+        color: white;
+    }
+    .foot-logo {
+        max-width: 90px;
+        width: 100%;
+    }
+    
+  
+  img {
+max-width: 100%;
+  }
+  .foot {
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.foot-n {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot-l {
+    margin-top: 20px;
+}    
+
+.foot-r {
+    margin-top: 20px;
+    display: inline-flex;
+    
+}
+
+
+.foot-logo {
+    max-width: 90px;
+    width: 100%;
+}
+
+.foot-social {
+    max-width: 95px;
+    width: 100%;
+
+}
+.f-ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.link-foot>a {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+} 
+
+.link-foot>a:hover {
+    background-color:white;
+    border-radius: 5px;
+    text-decoration: underline;
+    color: black;
+}
+.foot-logo {
+    max-width: 90px;
+    width: 100%;
+}

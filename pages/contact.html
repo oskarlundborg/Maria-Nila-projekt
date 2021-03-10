@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/contactstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <section class="main-body">
+      <section class="right-layout">
+        <h1>Contact us</h1>
+        <p>
+          You can contact our Customer Care calling the number +46 721 400 00,
+          active from Monday to Friday from 9 A.M. to 6 P.M. CET (available only
+          from European countries). Otherwise, you can fill the form below, we
+          will answer as soon as possible.
+        </p>
+        <form>
+          <div class="contacts">
+            <input type="name" class="input-box" placeholder="Your Name" />
+            <input type="email" class="input-box" placeholder="Your Email" />
+            <div class="select">
+              <label for="select" class="label"> How can we help you? </label>
+              <select name="Questions" class="select" id="select">
+                <option value="Products">Products info</option>
+                <option value="Orders">Orders and Shipping</option>
+                <option value="Returns">Returns and Refunds</option>
+                <option value="Salon">Salon</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="messages">
+            <textarea
+              name="message"
+              type="text"
+              id="input-message"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <p>
+            <span><input type="checkbox" /></span> I declare to have read the
+            "Contact us" policy, I give my consent to data processing and I
+            accept the terms of sale.
+          </p>
+          <button type="button" class="send-button">Send Message</button>
+        </form>
+      </section>
+      <div class="hair">
+        <img src="../images/contact-hair1.jpg" />
+      </div>
+    </section>
+  </body>
+</html>

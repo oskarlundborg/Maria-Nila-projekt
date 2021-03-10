@@ -1,0 +1,85 @@
+* {
+  font-family: 'Crimson Text', 'Abril Fatface';
+}
+
+html,
+body {
+  background: #f1f1f1;
+  font-family: 'Crimson Text', serif;
+  padding: 1em;
+}
+
+body {
+  max-width: 1500px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+  color: #2d6981;
+  font-size: 34px;
+}
+
+p {
+  color: #2d6981;
+  font-family: 'Crimson Text', serif;
+}
+
+.label {
+  color: #2d6981;
+}
+
+.send-button {
+  background-color: #2d6981;
+  color: white;
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: 'Crimson Text', serif;
+}
+
+.main-body {
+  justify-content: center; /* Center align stuff */
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input,
+textarea,
+select {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Crimson Text', serif;
+  resize: none;
+}
+
+textarea {
+  height: 126px;
+}
+
+.right-layout {
+  max-width: 518px;
+  flex: 0 518px /* Initial width of 400, won't grow, can shrink if necessary */;
+  padding-right: 30px;
+}
+.hair {
+  flex: 0 400px;
+  margin-left: 30px;
+} /* Initial width of 400, won't grow, can shrink if necessary */
